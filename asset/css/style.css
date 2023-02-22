@@ -70,6 +70,7 @@ section {
     width: 400px;
     background-color: gray;
     margin: 30px 2px;
+    position: relative;
 }
 
 
@@ -98,6 +99,7 @@ section {
     display: inline-block;
 }
 
+/* style text */
 .p-brand {
     color: rgb(56, 56, 56);
 }
@@ -115,7 +117,34 @@ section {
     text-decoration: line-through;
 }
 
+/* Overlay */
 
+.fav {
+    color: black;
+    background-color: white;
+    padding: 6px 8px;
+    position: absolute;
+    right: 0;
+    top: 8px;
+}
+
+
+.span-price {
+    background-color: red;
+    color: white;
+    padding: 3px 8px;
+    position: absolute;
+    bottom: 120px;
+}
+
+.span-dis-price {
+    background-color: rgb(12, 115, 10);
+    color: white;
+    padding: 3px 8px;
+    position: absolute;
+    bottom: 120px; 
+    left: 56px;
+}
 
 
 /* -------------------------------- */
