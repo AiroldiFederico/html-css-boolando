@@ -66,11 +66,57 @@ main {
 }
 
 section {
-    height: 600px; /*da levare*/
+    height: 670px; /*da togliere*/
     width: 400px;
     background-color: gray;
     margin: 30px 2px;
 }
+
+
+
+.card {
+    width: 400px;
+    height: 577px;
+    background: url(../img/1.webp) no-repeat;
+    display: inline-block;
+    background-size: contain;
+}
+.card:hover {
+    background: url(../img/1b.webp) no-repeat;
+    background-size: contain;
+}
+
+
+/* .flex-card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;
+} */
+
+#price {
+    display: inline-block;
+}
+
+.p-brand {
+    color: rgb(56, 56, 56);
+}
+
+.p-dress {
+    font-weight: bolder;
+}
+
+.p-price {
+    font-weight: bolder;
+    color: red;
+}
+
+.p-dis-price {
+    text-decoration: line-through;
+}
+
+
+
 
 /* -------------------------------- */
 /* FOOTER */
