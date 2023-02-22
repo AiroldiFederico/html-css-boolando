@@ -46,6 +46,11 @@ body {
 header {
     /* max-height: 50px; */
     background-color: orange;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
 }
 
 nav {
@@ -63,6 +68,7 @@ main {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    padding-top: 80px;
 }
 
 section {
@@ -186,6 +192,9 @@ section {
     top: 8px;
 }
 
+.fav:hover {
+    color: red;
+}
 
 .span-price {
     background-color: red;
@@ -225,6 +234,11 @@ footer {
     background-color: rgb(60, 60, 60);
     color: white;
     min-height: 60px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
 }
 
 #container-footer {
