@@ -10,6 +10,11 @@
     display: flex;
 }
 
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
 .logo {
     width: 150px;
 }
@@ -25,9 +30,16 @@ a {
     color: white;
     font-family: sans-serif;
     font-weight: bold;
-    margin-left: 5px;
+    margin-right: 8px;
   }
 
+.mrg-10 {
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: sans-serif;
+}
 /* -------------------------------- */
 /* HEADER */
 
@@ -64,6 +76,28 @@ section {
 /* FOOTER */
 
 footer {
-    min-height: 50px;
     background-color: rgb(60, 60, 60);
+    color: white;
+    min-height: 60px;
+}
+
+#container-footer {
+    position: relative;
+}
+
+#footer-right {
+    justify-content: end;
+}
+
+#p {
+ padding-left: 20px;
+}
+
+#info {
+    font-size: x-small;
+}
+
+strong {
+    font-size: 18px;
+    font-family: sans-serif;
 }
