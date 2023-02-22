@@ -68,7 +68,6 @@ main {
 section {
     height: 670px; /*da togliere*/
     width: 400px;
-    background-color: gray;
     margin: 30px 2px;
     position: relative;
 }
@@ -87,6 +86,65 @@ section {
     background-size: contain;
 }
 
+.card2 {
+    width: 400px;
+    height: 577px;
+    background: url(../img/2.webp) no-repeat;
+    display: inline-block;
+    background-size: contain;
+}
+.card2:hover {
+    background: url(../img/2b.webp) no-repeat;
+    background-size: contain;
+}
+
+.card3 {
+    width: 400px;
+    height: 577px;
+    background: url(../img/3.webp) no-repeat;
+    display: inline-block;
+    background-size: contain;
+}
+.card3:hover {
+    background: url(../img/3b.webp) no-repeat;
+    background-size: contain;
+}
+
+.card4 {
+    width: 400px;
+    height: 577px;
+    background: url(../img/4.webp) no-repeat;
+    display: inline-block;
+    background-size: contain;
+}
+.card4:hover {
+    background: url(../img/4b.webp) no-repeat;
+    background-size: contain;
+}
+
+.card5 {
+    width: 400px;
+    height: 577px;
+    background: url(../img/5.webp) no-repeat;
+    display: inline-block;
+    background-size: contain;
+}
+.card5:hover {
+    background: url(../img/5b.webp) no-repeat;
+    background-size: contain;
+}
+
+.card6 {
+    width: 400px;
+    height: 577px;
+    background: url(../img/6.webp) no-repeat;
+    display: inline-block;
+    background-size: contain;
+}
+.card6:hover {
+    background: url(../img/6b.webp) no-repeat;
+    background-size: contain;
+}
 
 /* .flex-card {
     display: flex;
@@ -138,14 +196,27 @@ section {
 }
 
 .span-dis-price {
-    background-color: rgb(12, 115, 10);
+    background-color: rgb(2, 139, 0);
     color: white;
     padding: 3px 8px;
     position: absolute;
     bottom: 120px; 
-    left: 56px;
+    left: 48px;
 }
 
+.span-dis-price6 {
+    background-color: rgb(2, 139, 0);
+    color: white;
+    padding: 3px 8px;
+    position: absolute;
+    bottom: 120px; 
+    left: 0px;
+}
+
+span {
+    font-weight: bold;
+    font-size: small;
+}
 
 /* -------------------------------- */
 /* FOOTER */
