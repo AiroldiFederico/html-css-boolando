@@ -1,0 +1,45 @@
+/* -------------------------------- */
+/* UTILITY */
+
+.wid-80 {
+    margin: auto;
+    width: 60%;
+}
+
+.flex {
+    display: flex;
+}
+
+/* -------------------------------- */
+/* HEADER */
+
+header {
+    min-height: 50px;
+    background-color: orange;
+}
+
+
+
+/* -------------------------------- */
+/* MAIN */
+
+main {
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section {
+    height: 600px; /*da levare*/
+    width: 400px;
+    background-color: gray;
+    margin: 30px 2px;
+}
+
+/* -------------------------------- */
+/* FOOTER */
+
+footer {
+    min-height: 50px;
+    background-color: rgb(60, 60, 60);
+}
